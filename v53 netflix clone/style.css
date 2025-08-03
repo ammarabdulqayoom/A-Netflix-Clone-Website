@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    min-height: 40rem;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+
+
+}
+
+.main .box {
+    min-height: 40rem;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+nav img {
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 12px;
+    margin-top: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background-color: black;
+}
+
+.hero> :first-child {
+    margin-top: 70px;
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center;
+
+}
+
+.hero> :nth-child(2) {
+    margin-top: -38px;
+    font-weight: 900;
+    font-size: 56px;
+    text-align: center;
+
+}
+
+
+.hero> :nth-child(3) {
+
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+
+
+}
+
+.hero> :nth-child(4) {
+
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+
+}
+
+.sep {
+    height: 7px;
+    background-color: rgb(247, 0, 0);
+
+}
+
+
+.btn-red {
+    /* background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 18px;
+    border-radius: 5px; */
+    font-size: 1.5rem;
+    font-weight: 700;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.24rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 250ms;
+    transition-property: background-color, border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
+    vertical-align: text-top;
+    width: auto;
+    margin-top: -13.5px;
+}
+
+
+
+
+
+
+
+.btn-red-sn {
+    border: 0;
+    cursor: pointer;
+    fill: currentColor;
+    position: relative;
+    transition-duration: 250ms;
+    transition-property: background-color, border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
+    vertical-align: text-top;
+    font-size: 0.975rem;
+    font-weight: 600;
+    min-height: 2rem;
+    padding: 9px 16px;
+    border-radius: 0.25rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+
+}
+
+.placeholder {
+    padding: 11px 30px;
+    min-height: 2rem;
+    border-radius: 0.25rem;
+    position: relative;
+    width: 350px;
+    border: 1px solid gray;
+    background: none;
+
+
+}
+
+section {
+    height: 60vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 88px;
+    padding-top: 0%;
+
+
+}
+
+.pr {
+    color: white;
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 160px;
+    margin-top: 45px;
+    padding-bottom: 14px;
+
+}
+
+
+
+.container .pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6,
+.pic7,
+.pic8,
+.pic9,
+.pic10 {
+
+    height: 15rem;
+    width: 10rem;
+    border: 2px solid white;
+    border-radius: 7px;
+
+
+}
+
+.pic1 {
+    background-image: url(/assets/images/1.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+.pic2 {
+    background-image: url(/assets/images/2.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+.pic3 {
+    background-image: url(/assets/images/3.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+.pic4 {
+    background-image: url(/assets/images/4.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+.pic5 {
+    background-image: url(/assets/images/5.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+.pic6 {
+    background-image: url(/assets/images/6.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+.pic7 {
+    background-image: url(/assets/images/7.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+.pic8 {
+    background-image: url(/assets/images/8.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+.pic9 {
+    background-image: url(/assets/images/9.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+.pic10 {
+    background-image: url(/assets/images/10.jpg);
+    background-size: cover;
+    background-repeat: round;
+
+}
+
+.section2 {
+    height: 80vh;
+
+}
+
+.section2 p {
+    margin-top: -40px;
+}
+
+.container .b1,
+.b2,
+.b3,
+.b4 {
+    height: 19rem;
+    width: 16rem;
+    border: 2px solid aliceblue;;
+    border-radius: 20px;
+    background-color: #1f1425;
+    
+    
+}
+
+.container .b1 p {
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: -14px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: unset;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container .b1 .p1 {
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+
+}
+.container .b1 img {
+
+    position: relative;
+    height: 20px;
+    width: 30px;
+    justify-content: end;
+    z-index: 10px;
+}
+
+.container .b2 p {
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: -14px;
+    padding-bottom: 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: unset;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.container .b2 .p2 {
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+
+.container .b3 p {
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 0;
+    margin-bottom: -14px;
+    font-family: unset;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.container .b3 .p3 {
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+
+.container .b4 p {
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 0;
+    margin-bottom: -13px;
+    font-family: unset;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.container .b4 .p4 {
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+}
+
+.section3 {
+    height: 100vh;
+
+
+}
+
+.section3 p {
+    margin-top: -40px;
+}
+
+
+.container1 .bb1,
+.bb2,
+.bb3,
+.bb4,
+.bb5,
+.bb6 {
+    width: 75vw;
+    height: 5.3rem;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+    background-color: rgb(34, 32, 32);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: start;
+    flex-direction: column;
+    margin-left: 160px;
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 10px;
+
+
+}
+
+button a {
+    color: white;
+    font-size: xx-large;
+    list-style: none;
+
+}
+
+.hero1 {
+    font-family: "Martel Sans", sans-serif;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 12px;
+    margin-top: -180px;
+    padding: 0;
+
+
+}
+
+
+.hero1> :nth-child(1) {
+
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+
+}
+
+.hero1 .placeholder {
+    padding: 11px 30px;
+    min-height: 2rem;
+    border-radius: 0.25rem;
+    position: relative;
+    width: 410px;
+    border: 1px solid gray;
+    background: none;
+
+
+}
+
+
+.footer div span {
+
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 50px;
+    margin-top: -70px;
+    margin-left: 120px;
+
+
+}
+
+.prr {
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 120px;
+    padding: 49px;
+    margin-top: -170px;
+
+
+}
+
+.footer span a {
+    color: white;
+
+}
